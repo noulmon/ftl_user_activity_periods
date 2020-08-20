@@ -19,13 +19,13 @@ The _**User Activity Periods**_ application is an API service that provides the 
     
     If the steps are followed correctly, the server will be up and running.
  
- 4. To gather all static files(not necessary as of now as the application does not serve ant static contents):
+ 4. To gather all static files(not necessary as of now, as the application does not serve ant static contents):
    
     ```python manage.py collectstatic```
     
  5. Populating dummy data in the Database(this will create 100 random users and their respective activity periods in DB):
     
-    ```python manage.py populate_db``` [NB: ignore the timezone warning]
+    ```python manage.py populate_db``` [NB: ignore the timezone warnings]
  
  ## API Documentation:
  ### API Endpoints:
