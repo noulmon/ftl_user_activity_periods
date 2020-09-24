@@ -3,5 +3,5 @@ from django.urls import path
 from user import views
 
 urlpatterns = [
-    path('user_activity_periods/', views.UserActivityPeriodsView.as_view(), name='user_activity_periods'),
+    path('activity_periods/', views.UserActivityPeriodsView.as_view(), name='user_activity_periods'),
     ]
