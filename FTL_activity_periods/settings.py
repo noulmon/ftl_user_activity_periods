@@ -28,7 +28,7 @@ SECRET_KEY = '*c5lavoxy+z%kpmsxp&g)4dy73=^j(k#g&7@#*p6^0t#&di-rx'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['git.heroku.com/ftl-user-activity.git']
 
 # Application definition
 
