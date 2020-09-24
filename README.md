@@ -29,7 +29,7 @@ The _**User Activity Periods**_ application is an API service that provides the 
  
  ## API Documentation:
  ### API Endpoints:
-  - ```<base_url>/user/activity_periods/``` [GET], retrieves the list of all user and their respective activity periods.
+  - ```<base_url>/user/activity_periods/?page_no=<page_number>&size=<page_size>``` [GET], retrieves the list of all user and their respective activity periods.
  
  ## Heroku:
- Heroku instance: ```https://ftl-user-activity.herokuapp.com/user/activity_periods/``` [GET]
+ - Heroku instance: ```https://ftl-user-activity.herokuapp.com/user/activity_periods/?page_no=<page_number>&size=<page_size>``` [GET]
